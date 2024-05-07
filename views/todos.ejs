@@ -1,0 +1,32 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div id="root">
+        <div class="container">
+            <h1>Todo List</h1>
+            <ul>
+                <% for (let i = 0; i < todos.length; i++) { %>
+                    <li class="todo-item">
+                        <input type="checkbox" <%= todos[i].isCompleted ? 'checked' : ''%>>
+                        <span><%= todos[i].title%></span>
+                        <div class="delete-todo">Delete</div>
+                    </li>
+                <% } %>
+            </ul><button onclick="addTodo()">add todo</button>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>

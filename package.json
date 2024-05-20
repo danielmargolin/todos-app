@@ -16,8 +16,10 @@
     "url": "https://github.com/danielmargolin/todos-app/issues"
   },
   "homepage": "https://github.com/danielmargolin/todos-app#readme",
+  "type": "module",
   "dependencies": {
     "ejs": "^3.1.10",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0"
   }
 }

@@ -20,6 +20,15 @@ body {
     padding-top: 40px;
 }
 
+.user-details {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(207, 207, 207);
+}
+
 .container {
     max-width: 400px;
     margin: 0 auto;
